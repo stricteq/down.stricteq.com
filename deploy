@@ -1,0 +1,2 @@
+#!/bin/sh
+ssh www@stricteq.com "cd /var/www/down/ && git fetch origin && git reset --hard origin/main"
